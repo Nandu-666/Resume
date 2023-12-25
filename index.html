@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandeshwar Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            position: fixed; 
+            top: 0; 
+            left: 0; 
+            z-index: 9999;
+             width: 100%; 
+             height: 50px;
+            background-color: #00a087;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 1.5cm;
+            background-color: rgb(5, 5, 63);
+
+        }
+
+        nav ul li {
+            margin: 0cm 0.4cm;
+            list-style: none;
+
+        }
+
+        nav ul li a {
+            margin: 0cm 0.4cm;
+            list-style: none;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: rgb(134, 159, 157);
+            font-size: 0.35cm;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .left {
+            font-size: 0.5cm;
+        }
+
+        .firstsection {
+            display: flex;
+        }
+
+        .leftsection {
+            width: 50%;
+            margin: 5%;
+            font-size: 2rem;
+            align-items: center;
+        }
+
+        .rightsection {
+            width: 50%;
+            margin-left: 20%;
+            margin-top: 5%;
+            margin-right: 5%;
+            align-items: center;
+        }
+
+        .purple {
+            color: rgb(122, 70, 171);
+        }
+
+        #element {
+            color: rgb(122, 70, 171);
+
+        }
+
+        main hr {
+            margin: 5%;
+        }
+
+        .secondsection {
+            height: 500px;
+        }
+
+        .secondsection h3 {
+            margin: 5%;
+            font-size: 1.5rem;
+        }
+
+        .horizontalline {
+            height: 0.5px;
+            background-color: white;
+            margin: 0px 150px;
+        }
+
+        .verticalline {
+            background-color: white;
+            height: 100px;
+            margin-left: 240px;
+            width: 1px;
+
+        }
+
+        .verticalholder {
+            display: flex;
+        }
+
+        .img-top {
+            height: 30px;
+            width: auto;
+            position: relative;
+            top: -40px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 70px;
+        }
+
+        .titledescription {
+            position: relative;
+            top: 90px;
+            font-size: 10px;
+            color: rgb(105, 101, 101);
+        }
+
+        .btn {
+            background-color: rgb(8, 8, 100);
+            padding: 12px;
+            border-radius: 20px;
+            margin: 2%;
+            color: white;
+        }
+
+        .btn:hover {
+            font-size: 30%;
+            color: rgb(56, 53, 53);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Nandeshwar Resume</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="firstsection">
+            <div class="leftsection">
+                Hi, I am <div class="purple">Mandumula Nandeshwar Reddy</div> and I am a passionate
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="resume.pdf"><button class="btn"> Download Resume </button></a>
+                    <a href="https://github.com/Nandu-666"><button class="btn"> Visit Github </button></a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" width="400px">
+            </div>
+        </div>
+        <hr>
+        <a name="About">
+        <div class="secondsection">
+            <h3>Work Experience</h3>
+            <div class="horizontalline"></div>
+            <div class="verticalholder">
+                <div class="verticalline">
+                    <img src="html.png" class="img-top">
+                    <div class="vertical-title">Html Developer (2020-2021)</div>
+                    <div class="titledescription">HTML developers are in charge of the entire end-to-end coding of
+                        websites.</div>
+                </div>
+                <div class="verticalline">
+                    <img src="css.png" class="img-top">
+                    <div class="vertical-title">Css Developer (2021-2022)</div>
+                    <div class="titledescription">CSS, is a language used to control the presentation and layout of web
+                        pages</div>
+                </div>
+                <div class="verticalline">
+                    <img src="js.png" class="img-top">
+                    <div class="vertical-title">Js Developer (2022-2023)</div>
+                    <div class="titledescription">A JavaScript developer is a professional who designs software using
+                        JavaScript</div>
+                </div>
+                <div class="verticalline">
+                    <img src="python.jpg" class="img-top">
+                    <div class="vertical-title">Python Developer (present)</div>
+                    <div class="titledescription">Python developers assist organizations with their technological
+                        framework.</div>
+                </div>
+            </div>
+
+        </div>
+    </a>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer . . .', 'Python Developer . . .'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
